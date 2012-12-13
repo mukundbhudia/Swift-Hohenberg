@@ -177,6 +177,6 @@ ChanProblemInterface::printSolution(const NOX::LAPACK::Vector &x,
     (*outputFilePtr) << conParam << " ";
     for (int i=0; i<n; i++)
       (*outputFilePtr) << x(i) << " ";
-    (*outputFilePtr) << std::endl << std::endl;
+    (*outputFilePtr) << std::endl;
   }
 }

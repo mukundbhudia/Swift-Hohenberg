@@ -70,7 +70,7 @@ int main()
     outFile.precision(14);
 
     // Save size of discretizations
-    outFile << n << endl;
+    //outFile << n << endl;
 
     // Create parameter list
     Teuchos::RCP<Teuchos::ParameterList> paramList = 
