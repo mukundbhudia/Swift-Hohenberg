@@ -1,4 +1,3 @@
-
 .DS_Store
 
 newtonTest/.DS_Store
@@ -40,8 +39,6 @@ newtonTest/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp
 locaExample/chanExec
 
 locaExample/Makefile
-
-locaExample/CMakeLists.txt
 
 *.check_cache
 
