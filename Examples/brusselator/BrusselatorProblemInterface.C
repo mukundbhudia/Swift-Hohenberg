@@ -196,6 +196,6 @@ BrusselatorProblemInterface::printSolution(const NOX::LAPACK::Vector &x,
    outputFile << conParam << " ";
    for (int i=0; i<2*n; i++)
      outputFile << x(i) << " ";
-   outputFile << std::endl << std::endl;
+   outputFile << std::endl;
 }
 
