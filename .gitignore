@@ -61,3 +61,19 @@ newtonTest/CMakeCache.txt
 *.bin
 
 newtonTest/CMakeFiles/CompilerIdC/CMakeCCompilerId.c
+
+Examples/brusselator/Makefile
+
+Examples/brusselator/brussExec
+
+Examples/brusselator/CMakeFiles/brussExec.dir/link.txt
+
+Examples/brusselator/CMakeFiles/TargetDirectories.txt
+
+Examples/brusselator/CMakeFiles/Makefile2
+
+Examples/brusselator/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+Examples/brusselator/CMakeFiles/CompilerIdC/CMakeCCompilerId.c
+
+Examples/brusselator/CMakeCache.txt
