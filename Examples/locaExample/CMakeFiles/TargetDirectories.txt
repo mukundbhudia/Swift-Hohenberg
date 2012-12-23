@@ -1,1 +1,0 @@
-/Users/mukundbhudia/Swift-Hohenberg-Repo/locaExample/CMakeFiles/chanExec.dir
