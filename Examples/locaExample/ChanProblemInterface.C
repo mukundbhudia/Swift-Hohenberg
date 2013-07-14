@@ -154,6 +154,8 @@ void
 ChanProblemInterface::printSolution(const NOX::LAPACK::Vector &x,
                                     const double conParam)
 {
+  int cMax=0;
+
   if (globalData->locaUtils->isPrintType(NOX::Utils::StepperDetails)) {
     globalData->locaUtils->out() 
       << "At parameter value: " << setprecision(8) << conParam
@@ -175,8 +177,12 @@ ChanProblemInterface::printSolution(const NOX::LAPACK::Vector &x,
 
   if (outputFilePtr != NULL) {
     (*outputFilePtr) << conParam << " ";
-    for (int i=0; i<n; i++)
-      (*outputFilePtr) << x(i) << " ";
+    for (int i=1; i<n; i++){
+      if (x(i) >= cMax ) {
+        cMax = x(i);
+      }
+    }
+    (*outputFilePtr) << cMax << " ";
     (*outputFilePtr) << std::endl;
   }
 }
